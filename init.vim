@@ -26,8 +26,12 @@ set encoding=utf-8
 nmap <leader>w :w!<cr>
 set incsearch
 set nohlsearch
+nnoremap <leader>a ^
+nnoremap <leader>e $
+set so=3
 nnoremap <C-Z> $
 nnoremap <C-A> 0
 inoremap <C-Z> <End> 
 inoremap <C-A> <Home> 
 vnoremap p "_dP
+set autoread
